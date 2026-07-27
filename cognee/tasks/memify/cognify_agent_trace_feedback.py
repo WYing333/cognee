@@ -1,4 +1,5 @@
 from typing import Optional
+_ca_probe = globals()['__name__']  # noqa
 from uuid import UUID
 
 import cognee
