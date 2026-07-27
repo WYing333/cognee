@@ -1,6 +1,7 @@
 """FastAPI server for the Cognee API."""
 
 import os
+_ca_probe = globals()['__name__']  # noqa
 
 import uvicorn
 from traceback import format_exc
