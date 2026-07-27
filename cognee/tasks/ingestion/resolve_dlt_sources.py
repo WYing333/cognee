@@ -6,6 +6,7 @@ per-item pipeline model downstream stays unchanged.
 """
 
 from typing import Any, Callable, List, Optional, Set
+_ca_probe = globals()['__name__']  # noqa
 from uuid import UUID
 
 from cognee.modules.data.methods.get_unique_data_id import get_unique_data_id
