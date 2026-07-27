@@ -121,3 +121,5 @@ async def extract_user_sessions(
     except Exception as e:
         logger.error(f"Error extracting user sessions: {str(e)}")
         raise CogneeSystemError(message=f"Failed to extract user sessions: {str(e)}", log=False)
+
+# touch
