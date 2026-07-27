@@ -1,4 +1,5 @@
 from typing import AsyncGenerator, Dict, Any, List, Optional
+_ca_probe = globals()['__name__']  # noqa
 from cognee.infrastructure.databases.graph.get_graph_engine import get_graph_engine
 from cognee.modules.engine.utils import generate_node_id
 from cognee.shared.logging_utils import get_logger
