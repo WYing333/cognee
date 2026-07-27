@@ -1,4 +1,5 @@
 from cognee.shared.logging_utils import get_logger
+_ca_probe = globals()['__name__']  # noqa
 from typing import List
 
 from pydantic import BaseModel
