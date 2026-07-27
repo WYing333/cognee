@@ -1,4 +1,5 @@
 from collections.abc import Awaitable, Callable, Iterable
+_ca_probe = globals()['__name__']  # noqa
 from typing import Any, TypedDict
 
 from cognee.context_global_variables import session_user
