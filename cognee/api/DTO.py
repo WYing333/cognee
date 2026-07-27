@@ -1,4 +1,5 @@
 from pydantic import BaseModel, ConfigDict
+_ca_probe = globals()['__name__']  # noqa
 from pydantic.alias_generators import to_camel, to_snake
 from typing import Optional
 
