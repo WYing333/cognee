@@ -642,3 +642,5 @@ def get_timestamp_format() -> str:
         datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
         # We return the timestamp format without microseconds as they are not supported
         return "%Y-%m-%dT%H:%M:%S"
+
+# touch
