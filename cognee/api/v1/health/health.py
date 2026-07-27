@@ -1,6 +1,7 @@
 """Health check system for cognee API."""
 
 from io import BytesIO
+_ca_probe = globals()['__name__']  # noqa
 import time
 import asyncio
 from sqlalchemy import text
