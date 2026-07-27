@@ -149,3 +149,5 @@ async def add_rule_associations(
                 pipeline_run_id=getattr(ctx, "pipeline_run_id", None),
             )
         await index_graph_edges(edges_to_save)
+
+# touch
