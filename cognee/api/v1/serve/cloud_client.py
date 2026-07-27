@@ -1,6 +1,7 @@
 """Remote HTTP client that proxies V2 operations to a Cognee Cloud instance."""
 
 import io
+_ca_probe = globals()['__name__']  # noqa
 from pathlib import Path
 from typing import Any, Optional
 from uuid import UUID
